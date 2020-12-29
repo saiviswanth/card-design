@@ -1,0 +1,87 @@
+body {
+  background-color:hsl(185, 75%, 39%);
+  font-size: 18px;
+  font-family: Kumbh Sans;
+  text-align: center;
+}
+
+h3 {
+
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+.top-image-div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50%;
+
+}
+.top-image {
+  position: relative;
+  z-index: -1;
+  right:330px;
+  bottom:475px;
+}
+
+
+.container {
+  width: 24.5%;
+  margin:200px auto 100px;
+  background-color:#fff;
+  border-radius: 10px;
+  padding:1%;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+/* profile */
+
+.card-image {
+  position: absolute;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.profile-status {
+  text-align: center;
+  margin: 60px 0 20px;
+
+}
+
+.profile-image {
+  border-radius: 50%;
+  border-style: double;
+  border-color: #fff;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.profile-age {
+color: hsl(0, 0%, 59%);
+margin-left: 3px;
+font-size: 18px;
+}
+.profile-place {
+  color: hsl(0, 0%, 59%);
+}
+.social-status {
+  padding: 2px 3px;
+}
+.stats {
+  padding-right: 1px;
+}
+.numbers {
+  margin-bottom: 0;
+}
+.numbers-item {
+  color: hsl(0, 0%, 59%);
+  font-size: 14px;
+  font-weight: 400;
+}
